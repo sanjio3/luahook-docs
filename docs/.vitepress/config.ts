@@ -4,8 +4,13 @@ export default defineConfig({
   lang: 'en-US',
   title: 'LuaHook',
   description: 'LuaHook Website',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
 
+  
   themeConfig: {
+   
     logo: '/logo.png',
     nav: [
       { text: 'Download', link: 'https://github.com/KuLiPai/LuaHook/releases/latest' }

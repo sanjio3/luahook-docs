@@ -7,13 +7,13 @@ This is the official website for the LuaHook project.
 Dev
 
 ```bash
-npm install
-npm run docs:dev
+pnpm install
+pnpm run docs:dev
 ```
 
 Build
 ```bash
-npm run docs:build
+pnpm run docs:build
 ```
 
 ## License

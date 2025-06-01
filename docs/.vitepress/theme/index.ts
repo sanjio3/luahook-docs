@@ -23,6 +23,7 @@ export default {
 
       /* 这是点击按钮🎉  */
       const setupConfettiButton = () => {
+        if (typeof window === 'undefined') return // SSR 环境跳过
         const btn = document.getElementById('firework')
         if (btn && !btn.dataset.bound) {
           console.log('[confetti] binding firework button')
@@ -39,6 +40,7 @@ export default {
       }
 
       const setupScrollConfetti = () => {
+        if (typeof window === 'undefined') return // SSR 环境跳过
         let triggered = false
         window.addEventListener('scroll', () => {
           const scrollTop = window.scrollY

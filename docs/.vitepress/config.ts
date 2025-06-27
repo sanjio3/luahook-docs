@@ -33,9 +33,16 @@ export default defineConfig({
 
       },
       {
-        text: 'API参考',
+        text: '手册',
         items: [
-          //{ text: 'HookLb', link: '/api' },
+          { text: 'Hook', link: '/manual/hook' },
+          { text: 'lpparam', link: '/manual/lpparam' },
+          { text: 'Field 字段', link: '/manual/field' },
+          { text: 'find/import 类', link: '/manual/import' },
+          { text: 'new/invoke 构造与函数', link: '/manual/invoke' },
+          
+
+          { text: 'Luaj++', link: '/luaj++' },
         ],
       },
 

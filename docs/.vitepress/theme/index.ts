@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { h, defineComponent, nextTick, watch } from 'vue'
 import { useRoute } from 'vitepress'
 import confetti from 'canvas-confetti'
+import "./custom.css"
 
 
 

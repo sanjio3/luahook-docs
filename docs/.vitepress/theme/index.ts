@@ -102,6 +102,11 @@ export default {
             /* 这是滑到页面底端显示🎉  */
             if (route.path === '/quickstart.html' || route.path === '/activate.html' || route.path === '/firstscript.html') {
               setupScrollConfetti()
+              setupScrollConfetti()
+              setupScrollConfetti()
+              setupScrollConfetti()
+              setupScrollConfetti()
+              setupScrollConfetti()
             }
           })
         },

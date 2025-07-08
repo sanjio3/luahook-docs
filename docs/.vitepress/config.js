@@ -1,5 +1,5 @@
 export default {
-  title: 'My Project',
+  title: 'LuaHook',
   description: 'Project Description',
   locales: {
     '/': {
@@ -19,7 +19,7 @@ themeConfig: {
     { text: '文档', link: '/guide/' },
     // 在导航栏右侧插入语言切换组件
     { text: 'Languages', items: [
-      { text: '简体中文', link: '/' },
+      { text: '简体中文', link: '/zh/' },
       { text: 'English', link: '/en/' }
     ]}
   ]

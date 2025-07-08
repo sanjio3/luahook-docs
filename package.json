@@ -12,7 +12,8 @@
   "dependencies": {
     "canvas-confetti": "^1.9.3"
   },
-  "scripts": {
-  "docs:dev": "vitepress dev docs"
-  }
+ "scripts": {
+  "docs:dev": "vitepress dev docs",
+  "docs:build": "vitepress build docs"
+}
 }

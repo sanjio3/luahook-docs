@@ -1,4 +1,4 @@
-import LanguageSwitch from './components/LanguageSwitch.vue'
+import LanguageSwitch from './LanguageSwitch.vue'
 
 export default {
   enhanceApp({ app }) {

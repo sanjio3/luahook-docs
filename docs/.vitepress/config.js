@@ -13,14 +13,15 @@ export default {
       description: 'English Description'
     }
   },
-  themeConfig: {
-    // 添加语言切换组件
-    selectLanguage: {
-      label: 'Languages',
-      options: [
-        { text: '简体中文', link: '/' },
-        { text: 'English', link: '/en/' }
-      ]
-    }
-  }
+themeConfig: {
+  nav: [
+    { text: '首页', link: '/' },
+    { text: '文档', link: '/guide/' },
+    // 在导航栏右侧插入语言切换组件
+    { text: 'Languages', items: [
+      { text: '简体中文', link: '/' },
+      { text: 'English', link: '/en/' }
+    ]}
+  ]
+}
 }

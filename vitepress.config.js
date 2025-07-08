@@ -1,42 +1,26 @@
-module.exports = {
-  title: 'LuaHook 文档',
-  description: 'LuaHook 官方文档',
+export default {
+  title: 'My Project',
+  description: 'Project Description',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'LuaHook 文档',
-      description: 'LuaHook 官方文档'
+      title: '中文文档',
+      description: '中文描述'
     },
     '/en/': {
       lang: 'en-US',
-      title: 'LuaHook Documentation',
-      description: 'Official documentation for LuaHook'
+      title: 'English Docs',
+      description: 'English Description'
     }
   },
   themeConfig: {
-    nav: [
-      { text: '指南', link: '/' },
-      { text: '参考', link: '/reference/' }
-    ],
-    sidebar: {
-      '/': [
-        { text: '入门', link: '/' },
-        { text: '安装', link: '/install/' },
-        { text: '用法', link: '/usage/' }
-      ],
-      '/en/': [
-        { text: 'Getting Started', link: '/en/' },
-        { text: 'Installation', link: '/en/install/' },
-        { text: 'Usage', link: '/en/usage/' }
-      ]
-    },
-    // 添加语言切换下拉菜单
+    // 添加语言切换组件
     selectLanguage: {
-      placeholder: '选择语言',
-      options: {
-        zh: '简体中文',
-        en: 'English'
-      }
+      label: 'Languages',
+      options: [
+        { text: '简体中文', link: '/' },
+        { text: 'English', link: '/en/' }
+      ]
     }
   }
 }
